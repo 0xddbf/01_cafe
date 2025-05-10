@@ -40,8 +40,7 @@ h3 {
 .about,
 .menu,
 .locations,
-.faq,
-.contact {
+.faq {
     /* padding-bottom: 64px; */
     max-width: 1300px;
     margin: 0 auto;
