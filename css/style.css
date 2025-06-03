@@ -687,8 +687,13 @@ header {
 
     .menu-list {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        text-align: center;
+        /* grid-template-columns: 1fr 1fr; */
+        /* text-align: center; */
+
+        grid-template-columns: repeat(auto-fit, 450px);
+        /* ← 幅固定！ */
+        justify-content: center;
+        gap: 40px;
     }
 
     .locations-container {
